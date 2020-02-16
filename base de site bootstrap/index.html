@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--meta-->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="CK" />
+	<meta NAME= "Keywords" CONTENT= "CK,accueil"> 
+
+<!--jquery & bootstrap-->
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!--mes fichiers-->
+
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/ck.js"></script>
+
+<!-- icons & fonts -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Galada&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet"> 
+
+
+	<title>BOOTSTRAP</title>
+
+</head>
+
+<body class="container-fluid">
+
+	<!-- header -->
+<header class="row">
+	<div class="container">
+		<nav class="navbar">
+			<a class="navbar-brand" href="#">
+				<img id="logock" src="img/logo_ck_blanc.png" alt="logo">
+				<h1>BASE BOOTSTRAP</h1>
+			</a>
+
+			<ul class="nav flex-sm-row flex-column">
+				<li class="nav-item">
+					<a class="nav-link" id="maccueil" href="#">Accueil</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="mprojets" href="#">Projets</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="mcontact" href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	<!-- fin header -->
+
+	<!-- main (corps de la page) -->
+<div class="row main">
+
+<!-- accueil -->
+	<div class="col-8 offset-2 accueil">
+		<h2>Accueil</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+<!-- fin accueil -->
+
+<!-- projets -->
+	<div class="col-8 offset-2 projets description">
+		<h2>Projets</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+<!-- fin projets -->
+
+<!-- contact -->
+	<div class="col-8 offset-2 contact description">
+		<h2>Contact</h2>
+		<div class="form-area">  
+        <form role="form">
+        <br/>
+                    
+    				<div class="form-group">
+						<input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Téléphone" required>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control" id="objet" name="objet" placeholder="objet" required>
+					</div>
+
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>
+                                      
+                    </div>
+            
+        <button type="button" id="submit" name="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+	</div>
+<!-- fin contact -->
+	
+</div>
+	<!-- fin main -->
+
+	<!-- pied de page -->
+<div class="row pdp">
+	<div class="container">
+		<div class="row">
+			<div class="col align-self-center">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Projets</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col align-self-center d-flex justify-content-center">
+				<a class="navbar-brand" href="#"><img id="logock" src="img/logo_ck_blanc.png" alt="logo"></a>
+			</div>
+			<div class="col align-self-center">
+				<div class="row">
+					<div class="col  d-flex justify-content-end">
+						<p>123 chemin de Traverse<br/>
+						01 234 Somewhere<br/>
+						ON HEARTH</p>
+					</div>
+				</div>
+			
+				<div class="row d-flex justify-content-end">
+					<div class="col-2 col-md-1"><a href="https://fr.linkedin.com/in/claire-knuppel-5a3569188" target="blanc" class="fa fa-linkedin"></a></div>
+					<div class="col-2 col-md-1"><a href="https://www.instagram.com/claire.k_design.web/" target="blanc" class="fa fa-facebook"></a></div>
+					<div class="col-2 col-md-1"><a href="https://www.instagram.com/claire.k_design.web/" target="blanc" class="fa fa-instagram"></a></div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+
+		
+	</div>
+	
+</div>
+	<!-- fin pied de page -->
+
+	<!-- footer -->
+<footer class="row">
+
+	
+</footer>
+	<!-- fin footer -->
+
+
+
+</body>
+</html>
